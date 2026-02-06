@@ -24,6 +24,10 @@ app.get("/backend", (req,res)=> {
         </ul>`)
 });
 
+app.get('/githubuser', (req,res)=> {
+    res.json('https://api.github.com/users/NiteshChavan-17');
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port http://localhost:${process.env.PORT}`)
 })
