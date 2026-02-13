@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-color: #2b2b2b;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.title{
+  margin-bottom: 10px;
+}
+
+button{
+  margin-bottom: 10px;
+}
+
+.icon{
+  color:rgb(226, 57, 184);
+  animation: visible 2s linear 1
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+@keyframes visible {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 100%;
+  }
+}
