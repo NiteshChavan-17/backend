@@ -1,0 +1,24 @@
+{
+  "name": "backend-development",
+  "version": "1.0.0",
+  "description": "This is Backend Series",
+  "homepage": "https://github.com/NiteshChavan-17/backend#readme",
+  "bugs": {
+    "url": "https://github.com/NiteshChavan-17/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiteshChavan-17/backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
